@@ -13,9 +13,9 @@ public class CalculadoraBasicaRFCTest {
 
     @Test
     public void calcularRFCTest() {
-        LocalDate fecha = LocalDate.of(1970, 12, 13);
-        calculadora = new CalculadoraBasicaRFC("Juan", "Barrios", "Fernández", fecha);
-        assertEquals("BAFJ701213SBA", calculadora.getRFC());
+        LocalDate fecha = LocalDate.of(1956, 12, 31);
+        calculadora = new CalculadoraBasicaRFC("Emma", "Gómez", "Díaz", fecha);
+        assertEquals("GODE561231GR8", calculadora.getRFC());
     }
 
 }
